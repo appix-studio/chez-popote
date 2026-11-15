@@ -1,0 +1,55 @@
+title: Contact et accès – Chez Popote, restaurant à Bourges
+description: Contactez Chez Popote, 6 rue de la Poissonnerie à Bourges : téléphone 02 48 68 22 70, horaires, plan d'accès et formulaire de contact.
+jsonld: {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Accueil","item":"https://www.chezpopote.fr/"},{"@type":"ListItem","position":2,"name":"Contact","item":"https://www.chezpopote.fr/contact.html"}]}
+---
+<section class="ptop ptop-solo">
+  <div class="ptop-txt">
+    <p class="crumbs"><a href="index.html">Accueil</a> / Contact</p>
+    <h1 class="ptop-h split">Venez <em>nous voir</em><span class="sr"> – contact et accès du restaurant Chez Popote à Bourges</span></h1>
+    <p class="lead rv">Une question, une demande pour un groupe, un bon cadeau ? Écrivez-nous ou appelez-nous.</p>
+    <div class="infos-act rv">
+      <a class="btn btn-fill" href="tel:+33248682270"><span class="bt">02 48 68 22 70</span><span class="ba"><svg class="ico" aria-hidden="true"><use href="#i-arrow"/></svg></span></a>
+      <a class="btn btn-ghost-d" href="index.html#reservation"><span class="bt">Réserver une table</span></a>
+    </div>
+  </div>
+</section>
+
+<section class="contact-grid">
+  <div class="c-info">
+    <article class="rv">
+      <h2>Adresse du restaurant</h2>
+      <address>Chez Popote<br>6 rue de la Poissonnerie<br>18000 Bourges</address>
+      <a class="tlink" href="https://www.google.com/maps/search/?api=1&amp;query=47.0856348,2.3988578" target="_blank" rel="noopener">Ouvrir l'itinéraire <svg class="ico" aria-hidden="true"><use href="#i-ext"/></svg></a>
+    </article>
+    <article class="rv">
+      <h2>Horaires d'ouverture</h2>
+      <p class="status" data-open-status><i></i><span>Horaires du jour</span></p>
+      <p>Lundi au jeudi : 12h–14h et 19h–22h<br>Vendredi et samedi : 12h–14h et 19h–22h30<br>Dimanche : fermé</p>
+    </article>
+  </div>
+  <form class="ticket rv" id="contact-form" novalidate data-endpoint="">
+      <p class="ticket-k">Message</p><h2>Écrire au restaurant</h2>
+      <p class="intro"><span class="mark">Provisoire</span> Formulaire de démonstration : il sera relié à la boîte e-mail du restaurant.</p>
+      <div class="rf">
+        <div class="field"><label class="fl" for="nom">Nom<input id="nom" name="nom" autocomplete="name" aria-describedby="nom-err" required></label><p class="err" id="nom-err"></p></div>
+        <div class="field"><label class="fl" for="tel">Téléphone (facultatif)<input id="tel" name="tel" type="tel" autocomplete="tel" aria-describedby="tel-err"></label><p class="err" id="tel-err"></p></div>
+        <div class="field full"><label class="fl" for="email">E-mail<input id="email" name="email" type="email" autocomplete="email" aria-describedby="email-err" required></label><p class="err" id="email-err"></p></div>
+        <div class="field full"><label class="fl" for="sujet">Votre demande
+          <select id="sujet" name="sujet" aria-describedby="sujet-err" required>
+            <option value="">Choisir…</option><option>Une question</option><option>Un groupe ou un événement</option><option>Un bon cadeau</option><option>Autre</option>
+          </select></label><p class="err" id="sujet-err"></p></div>
+        <div class="field full"><label class="fl" for="message">Message<textarea id="message" name="message" aria-describedby="message-err" required></textarea></label><p class="err" id="message-err"></p></div>
+        <div class="hp" aria-hidden="true"><label>Ne pas remplir<input name="website" tabindex="-1" autocomplete="off"></label></div>
+        <div class="full"><label class="check"><input type="checkbox" id="consent" name="consent" aria-describedby="consent-err"><span>J'accepte que mes informations soient utilisées pour répondre à ma demande.</span></label><p class="err" id="consent-err"></p></div>
+      </div>
+      <div class="form-actions"><button class="btn btn-fill btn-block" type="submit"><span class="bt">Envoyer le message</span><span class="ba"><svg class="ico" aria-hidden="true"><use href="#i-arrow"/></svg></span></button></div>
+      <div class="ok" id="formOk" tabindex="-1" role="status"><svg class="ico" aria-hidden="true"><use href="#i-check"/></svg><h3>Merci, votre message est prêt</h3><p>Démonstration : aucun message n'est réellement envoyé tant que le formulaire n'est pas relié.</p></div>
+    </form>
+</section>
+
+<section class="contact-map">
+  <div class="map rv">
+    <iframe title="Plan : Chez Popote, 6 rue de la Poissonnerie, Bourges" loading="lazy" referrerpolicy="no-referrer-when-downgrade" data-consent="maps" data-src="https://maps.google.com/maps?q=47.0856348,2.3988578&amp;z=17&amp;output=embed"></iframe>
+    <div class="map-ph" data-consent-ph="maps"><p>Le plan est fourni par Google Maps. Son affichage dépose des cookies de Google.</p><div class="ck-row"><button type="button" class="ck-btn" data-ck-allow="maps">Afficher le plan</button><a class="ck-link" href="https://www.google.com/maps/search/?api=1&amp;query=47.0856348,2.3988578" target="_blank" rel="noopener">Ouvrir dans Google Maps</a></div></div>
+  </div>
+</section>
