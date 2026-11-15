@@ -1,0 +1,60 @@
+<div class="proposal" role="region" aria-label="Information sur la maquette">
+  <p>Maquette de proposition réalisée pour <strong>Chez Popote</strong> par <strong>APPIX STUDIO</strong> · ce n'est pas le site officiel<span class="proposal-sep"> · </span><span class="proposal-legend">Les repères <i class="mark">Provisoire</i> signalent un contenu à valider</span></p>
+  <button class="proposal-toggle" type="button" id="toggleMarks" aria-pressed="false">Masquer les repères</button>
+</div>
+
+<a class="skip" href="#contenu">Aller au contenu</a>
+
+<header class="site-header" id="header">
+  <button class="menu-btn" id="menuBtn" type="button" aria-expanded="false" aria-controls="menu">
+    <span class="mb-lines" aria-hidden="true"><i></i><i></i></span>
+    <span class="mb-label"><span data-open>Menu</span><span data-close>Fermer</span></span>
+  </button>
+  <a class="brand" href="index.html" aria-label="Chez Popote – accueil">
+    <span class="brand-name">Chez Popote</span>
+    <span class="brand-sub">Grill · Bourges</span>
+  </a>
+  <a class="hd-resa" href="index.html#reservation"><span>Réserver</span><svg class="ico" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+</header>
+
+<div class="menu" id="menu" aria-hidden="true" role="dialog" aria-modal="true" aria-label="Menu principal">
+  <div class="menu-l">
+    <nav class="nav" aria-label="Navigation principale">
+      <ul>
+        <li><a href="index.html" data-p="index" data-img="m-1"><span class="n">01</span><span class="t">Accueil</span></a></li>
+        <li><a href="carte.html" data-p="carte" data-img="m-2"><span class="n">02</span><span class="t">La carte</span></a></li>
+        <li><a href="restaurant.html" data-p="restaurant" data-img="m-3"><span class="n">03</span><span class="t">Le restaurant</span></a></li>
+        <li><a href="galerie.html" data-p="galerie" data-img="m-4"><span class="n">04</span><span class="t">Galerie</span></a></li>
+        <li><a href="contact.html" data-p="contact" data-img="m-5"><span class="n">05</span><span class="t">Contact</span></a></li>
+      </ul>
+    </nav>
+    <div class="menu-foot">
+      <p>6 rue de la Poissonnerie<br>18000 Bourges</p>
+      <p><a href="tel:+33248682270">02 48 68 22 70</a><br>Lundi – samedi, midi et soir</p>
+      <a class="btn btn-fill" href="index.html#reservation"><span class="bt">Réserver une table</span><span class="ba"><svg class="ico" aria-hidden="true"><use href="#i-arrow"/></svg></span></a>
+    </div>
+  </div>
+  <div class="menu-r" aria-hidden="true">
+    <figure class="menu-fig">
+      <img id="m-1" class="on" src="assets/img/gal-os-flamme.jpg" alt="" loading="lazy">
+      <img id="m-2" src="assets/img/gal-planche.jpg" alt="" loading="lazy">
+      <img id="m-3" src="assets/img/gal-salle-rideaux.jpg" alt="" loading="lazy">
+      <img id="m-4" src="assets/img/gal-chefs.jpg" alt="" loading="lazy">
+      <img id="m-5" src="assets/img/gal-enseigne.jpg" alt="" loading="lazy">
+    </figure>
+    <p class="menu-script" aria-hidden="true">cuisine de copains</p>
+  </div>
+</div>
+
+<a class="seal" href="index.html#reservation" aria-label="Réserver une table">
+  <svg viewBox="0 0 120 120" aria-hidden="true">
+    <defs><path id="sealPath" d="M60,60 m-44,0 a44,44 0 1,1 88,0 a44,44 0 1,1 -88,0"/></defs>
+    <g class="seal-ring"><text><textPath href="#sealPath" startOffset="0">Réserver une table · Réserver une table ·</textPath></text></g>
+  </svg>
+  <svg class="ico seal-ico" aria-hidden="true"><use href="#i-flame"/></svg>
+</a>
+
+<div class="mbar">
+  <a class="btn btn-ghost-d" href="tel:+33248682270"><svg class="ico" aria-hidden="true"><use href="#i-phone"/></svg>Appeler</a>
+  <a class="btn btn-fill" href="index.html#reservation"><span class="bt">Réserver</span></a>
+</div>
